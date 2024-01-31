@@ -259,8 +259,40 @@ section.contents .project ul li a:hover .name {
     opacity: 0;
     transform: translateY(30);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* section partner style */
+section.contents .partner {
+  /* background-color: orange; */
+  width: 80%;
+  margin: 170px auto 100px;
+}
+
+section.contents .partner h3 {
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+section.contents .partner ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.contents .partner ul li {
+  width: 25%;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+section.contents .partner ul li:hover {
+  opacity: 1;
 }
